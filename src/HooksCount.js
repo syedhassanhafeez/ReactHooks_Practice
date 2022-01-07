@@ -8,7 +8,7 @@ function HooksCount() {
 
     useEffect(() => {
         document.title = `You clicked ${count} times`
-        console.log('Component is render every count update becuase dependency given in dependency bracket is count');
+        console.log('Component is render every count update because dependency given in dependency bracket is count');
     }, [count])
 
     //Ye wala useEffect jb chala jb HookCount component UI se clean hua.
